@@ -1,8 +1,8 @@
 # Systematic Mapping Study: Neural Decoding and Stimulus Reconstruction Using Neuroimaging and Artificial Intelligence
 
-* Rolly Maulana Awangga
-* Prof. Dr. SUYANTO S.T., M.Sc.
-* Bedy Purnama, S.Si., M.T., Ph.D.
+* Rolly Maulana Awangga -- rollymaulanaa@student.telkomuniversity.ac.id
+* Prof. Dr. SUYANTO S.T., M.Sc. -- suyanto@telkomuniversity.ac.id
+* Bedy Purnama, S.Si., M.T., Ph.D. -- bedypurnama@telkomuniversity.ac.id
 
 ## Introduction
 
