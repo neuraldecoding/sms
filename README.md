@@ -69,43 +69,42 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 ## Visualisasi hasil pemetaan
 
 Gunakan hasil data untuk menghasilkan peta seperti:
-1. Tren publikasi per tahun (2010–2025)
+1. Tren publikasi per tahun (2019–2026)
+   * Increasing use of deep learning since 2019
+   * Shift from simple classification to complex reconstruction tasks
+   * Growing interest in real-time decoding
 2. Distribusi modality vs metode
-   → (contoh: fMRI–VAE dominan; EEG–CNN meningkat)
+   * (contoh: fMRI–VAE dominan; EEG–CNN meningkat)
 3. Peta tujuan penelitian
-   → (klasifikasi vs rekonstruksi)
-4. Distribusi dataset publik vs private
+   * (klasifikasi vs rekonstruksi)
+4. Distribusi dataset publik vs private (e.g., HCP, OpenNeuro)
 5. Gap Analysis Chart
-   → area dengan publikasi rendah namun penting (misal: multimodal fusion atau real-time decoding)
+   * area dengan publikasi rendah namun penting (misal: multimodal fusion atau real-time decoding)
 
-### Methods Used
-- Deep learning (CNN, RNN, GAN)
-- Traditional machine learning (SVM, LDA)
-- Signal processing techniques
-
-### Datasets
-- fMRI visual datasets (e.g., HCP, OpenNeuro)
-- EEG visual stimulus datasets
-- Custom experimental datasets
-
-### Application Areas
-- Image reconstruction
-- Visual object recognition
-- Brain-computer interfaces
-- Medical diagnostics
-
-### Research Trends
-- Increasing use of deep learning since 2015
-- Shift from simple classification to complex reconstruction tasks
-- Growing interest in real-time decoding
-
-## Visualization
+### Visualization
 - [ ] Bubble chart: Methods vs. Application Areas
 - [ ] Timeline: Number of publications per year
 - [ ] Table: Dataset usage frequency
 
-## Discussion
-Summarize key findings, gaps, and future directions in visual neural decoding research.
+## Expected Insight
+
+1. Tren global: pergeseran dari decoding linear (SLR) → deep generative models (VAE, Diffusion).
+2. Dominasi modality: fMRI banyak untuk visual decoding, EEG lebih untuk klasifikasi emosi/simbol.
+3. Kesenjangan:
+   * Minimnya dataset multimodal publik.
+   * Kurangnya studi cross-subject dan zero-shot generalization.
+   * Masih sedikit yang memanfaatkan self-supervised atau foundation models (mis. CLIP, LLaVA, Kosmos-2).
+
+## Format Output yang Disarankan
+
+Output SMS ini bisa disajikan dalam:
+1. Paper mapping (seperti di Information and Software Technology atau Neuroinformatics Journal).
+2. Spreadsheet hasil ekstraksi (Excel/CSV) untuk visualisasi di Python (Pandas/Matplotlib).
+3. Diagram taxonomy:
+   * Level 1: Modality
+   * Level 2: Objective
+   * Level 3: Model type
+   * Level 4: Evaluation metric / Dataset
 
 ## References
 List of selected studies (to be filled after literature review).
