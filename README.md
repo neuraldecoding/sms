@@ -42,6 +42,20 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 3. Full-text review for eligibility
 4. Data extraction
 
+## Classification Schema
+
+| Dimensi | Contoh Kategori |
+| --- | --- |
+| **Modality** | EEG, fMRI, MEG, NIRS, Multimodal |
+| **Research Objective** | Classification, Reconstruction, Prediction, Emotion Recognition |
+| **Learning Type** | Supervised, Unsupervised, Self-Supervised, Contrastive |
+| **Architecture** | CNN, RNN, VAE, GAN, CLIP, Diffusion |
+| **Stimulus Type** | Visual, Auditory, Textual, Motor |
+| **Dataset Type** | Public, Private, Synthetic |
+| **Evaluation Metric** | Accuracy, SSIM, FID, Correlation, MSE, R² |
+| **Publication Year** | 2010–2025 |
+
+
 ## Data Extraction Schema
 | Study | Year | Method | Dataset | Application | Results |
 |-------|------|--------|---------|-------------|---------|
