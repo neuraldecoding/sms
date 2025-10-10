@@ -66,7 +66,18 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 | ... | ...           | ...     | ...      | ...                         | ...            | ...                    | ...            | ...                                     | ...                          |
 
 
-## Mapping Results
+## Visualisasi hasil pemetaan
+
+Gunakan hasil data untuk menghasilkan peta seperti:
+1. Tren publikasi per tahun (2010–2025)
+2. Distribusi modality vs metode
+   → (contoh: fMRI–VAE dominan; EEG–CNN meningkat)
+3. Peta tujuan penelitian
+   → (klasifikasi vs rekonstruksi)
+4. Distribusi dataset publik vs private
+5. Gap Analysis Chart
+   → area dengan publikasi rendah namun penting (misal: multimodal fusion atau real-time decoding)
+
 ### Methods Used
 - Deep learning (CNN, RNN, GAN)
 - Traditional machine learning (SVM, LDA)
