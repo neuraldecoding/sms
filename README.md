@@ -47,6 +47,15 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 |-------|------|--------|---------|-------------|---------|
 |       |      |        |         |             |         |
 
+
+| No  | Judul & Tahun | Penulis | Modality | Tujuan | Dataset        | Metode | Evaluasi | Kontribusi | Research Gap |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1   | ...           | ...     | fMRI     | Rekonstruksi gambar natural | NSD Dataset    | Diffusion Model + CLIP | FID = 12.4     | Text-to-image reconstruction from brain | Perlu validasi cross-subject |
+| 2   | ...           | ...     | EEG      | Klasifikasi digit visual    | MindBigData    | CNN                    | Accuracy = 88% | CNN temporal filtering                  | Perlu integrasi multimodal   |
+| 3   | ...           | ...     | EEG+fMRI | Multimodal decoding         | Custom dataset | CLIP-VAE Fusion        | SSIM = 0.72    | Fusion alignment model                  | Belum ada dataset publik     |
+| ... | ...           | ...     | ...      | ...                         | ...            | ...                    | ...            | ...                                     | ...                          |
+
+
 ## Mapping Results
 ### Methods Used
 - Deep learning (CNN, RNN, GAN)
