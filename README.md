@@ -24,7 +24,7 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 | Komponen | Deskripsi |
 | --- | --- |
 | **Sumber Database** | Scopus, IEEE Xplore, ~~PubMed, SpringerLink, ScienceDirect, ACM Digital Library~~ |
-| **Rentang Tahun** | 2019–2026 *(dipilih rentang 6 tahun terakhir agar bisa terlihat trend saat ini seperti apa, dan apakah masih ada peluang pengembangan)* |
+| **Rentang Tahun** | 2019–2026 *(dipilih rentang 6 tahun terakhir agar bisa terlihat trend saat ini dan apakah masih ada peluang gap penelitian lanjutan)* |
 | **Bahasa** | English |
 | **Kata Kunci Utama (Search String)** | `("brain decoding" OR "neural decoding" OR "stimulus reconstruction" OR "brain reading" OR "visual reconstruction") AND ("EEG" OR "fMRI" OR "MEG" OR "NIRS" OR "BCI") AND ("deep learning" OR "machine learning" OR "VAE" OR "GAN" OR "transformer" OR "CLIP" OR "diffusion model")` |
 | **Jenis Publikasi** | Journal, Conference, Book Chapter (peer-reviewed) |
