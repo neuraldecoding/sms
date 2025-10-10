@@ -30,13 +30,11 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 | **Jenis Publikasi** | Journal, Conference, Book Chapter (peer-reviewed) |
 
 ## Inclusion and Exclusion Criteria
-- **Inclusion:**
-  - Peer-reviewed articles
-  - Studies focused on decoding visual information from neural signals
-  - English language
-- **Exclusion:**
-  - Non-visual decoding studies
-  - Reviews, editorials, or non-research articles
+
+| Kriteria | Deskripsi |
+| --- | --- |
+| **Inclusion** | (1) Studi menggunakan sinyal otak (EEG, fMRI, MEG, NIRS, atau multimodal). <br> (2) Fokus pada decoding, klasifikasi, atau rekonstruksi stimulus. <br> (3) Menggunakan pendekatan AI/ML/DL. <br> (4) Publikasi peer-reviewed dengan hasil empiris. |
+| **Exclusion** | (1) Studi hanya membahas teori tanpa eksperimen. <br> (2) Studi klinis murni (tanpa decoding). <br> (3) Fokus pada neurofeedback tanpa decoding stimulus. <br> (4) Paper duplikat antar sumber.                                                    |
 
 ## Study Selection Process
 1. Initial search using keywords and strings
