@@ -1,5 +1,9 @@
 # Systematic Mapping Study: Neural Decoding and Stimulus Reconstruction Using Neuroimaging and Artificial Intelligence
 
+* Rolly Maulana Awangga
+* Prof. Dr. SUYANTO S.T., M.Sc.
+* Bedy Purnama, S.Si., M.T., Ph.D.
+
 ## Introduction
 
 Visual neural decoding is a research field focused on interpreting neural signals to reconstruct or understand visual information processed by the brain. This systematic mapping study (SMS) aims to provide an overview of research trends, methods, datasets, and applications in visual neural decoding.
