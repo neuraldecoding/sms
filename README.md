@@ -7,10 +7,6 @@ Visual neural decoding is a research field focused on interpreting neural signal
 Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modalitas neuroimaging, seperti fMRI, MEG, NIRS, atau multimodal fusion (EEG+fMRI, EEG+Eye-tracking, dll).
 
 ## Research Questions
-- RQ1: What are the main methods used in visual neural decoding?
-- RQ2: What datasets are commonly used?
-- RQ3: What are the main application areas?
-- RQ4: How has research evolved over time?
 
 | Kode | Pertanyaan Penelitian                                                                                               | Tujuan                                                                                                   |
 | ---- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
