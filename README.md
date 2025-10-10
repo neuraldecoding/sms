@@ -57,10 +57,6 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 
 
 ## Data Extraction Schema
-| Study | Year | Method | Dataset | Application | Results |
-|-------|------|--------|---------|-------------|---------|
-|       |      |        |         |             |         |
-
 
 | No  | Judul & Tahun | Penulis | Modality | Tujuan | Dataset        | Metode | Evaluasi | Kontribusi | Research Gap |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
