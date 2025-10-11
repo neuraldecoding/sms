@@ -25,8 +25,7 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 
 ## Search Strategy
 
-<img width="934" height="493" alt="image" src="https://github.com/user-attachments/assets/98f5ce97-6761-4799-8eb6-51778ee359c1" />
-
+Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 
 | Komponen | Deskripsi |
 | --- | --- |
