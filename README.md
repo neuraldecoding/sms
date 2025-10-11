@@ -39,6 +39,14 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 | **URL Hasil IEEE Xplore** | `https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22All%20Metadata%22:%22neural%20decoding%22%20OR%20%22All%20Metadata%22:%22brain%20decoding%22)%20AND%20(%22All%20Metadata%22:%22visual%20cortex%22%20OR%20%22All%20Metadata%22:%22image%20reconstruction%22)&ranges=2019_2026_Year` |
 | **Jenis Publikasi** | Journal, Conference, Book Chapter (peer-reviewed) |
 
+### Keyword scopus
+
+<img width="1334" height="596" alt="image" src="https://github.com/user-attachments/assets/657dd394-b411-4f4f-bcf1-e3d3ac2565b6" />
+
+### Keyword IEEE Xplore
+
+<img width="1263" height="700" alt="image" src="https://github.com/user-attachments/assets/18327f57-0054-4c85-bdc4-c4dea959fd32" />
+
 ## Inclusion and Exclusion Criteria
 
 | Kriteria | Deskripsi |
