@@ -3,53 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BibTeX References</title>
+    <title>Systematic Mapping Study : BibTeX References</title>
     <style>
+        :root {
+            --max-width: 1200px;
+            --padding: 20px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            line-height: 1.6;
+            padding: var(--padding);
+            max-width: 100%;
+            overflow-x: hidden;
         }
+
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-radius: 4px;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
+            background: white;
+            min-width: 600px;
         }
+
         th, td {
             border: 1px solid #ddd;
-            padding: 8px;
+            padding: 12px;
             text-align: left;
+            font-size: 0.9rem;
         }
+
         th {
-            background-color: #f2f2f2;
+            background-color: #f8f9fa;
             position: sticky;
             top: 0;
+            z-index: 1;
+            font-weight: 600;
         }
+
         td {
             vertical-align: top;
         }
+
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+
         #error {
-            color: red;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid red;
+            color: #721c24;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
             display: none;
+        }
+
+        /* Responsive design */
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            /* Hide table header on mobile */
+            thead {
+                display: none;
+            }
+
+            /* Make table rows into cards */
+            tr {
+                display: block;
+                margin-bottom: 1rem;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+
+            td {
+                display: block;
+                border: none;
+                border-bottom: 1px solid #eee;
+                padding: 12px;
+                font-size: 0.9rem;
+                position: relative;
+            }
+
+            td:last-child {
+                border-bottom: none;
+            }
+
+            /* Add labels for each cell */
+            td:before {
+                content: attr(data-label);
+                font-weight: bold;
+                display: block;
+                margin-bottom: 4px;
+                color: #666;
+            }
+
+            .table-container {
+                margin: 0.5rem 0;
+                overflow-x: hidden;
+            }
+
+            /* Ensure table takes full width but doesn't scroll */
+            table {
+                min-width: unset;
+                width: 100%;
+            }
+        }
+
+        /* Dark mode support */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #1a1a1a;
+                color: #e0e0e0;
+            }
+
+            table {
+                background-color: #2d2d2d;
+            }
+
+            th {
+                background-color: #333;
+                color: #fff;
+            }
+
+            td {
+                border-color: #444;
+            }
+
+            tr:nth-child(even) {
+                background-color: #2a2a2a;
+            }
+
+            tr:hover {
+                background-color: #363636;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Daftar Referensi</h1>
-    <div id="error"></div>
-    <table>
-        <thead>
-            <tr>
-                <th>No</th>
-                <th>Cite Key</th>
-                <th>Judul</th>
-                <th>Abstrak</th>
-            </tr>
-        </thead>
-        <tbody id="bibBody"></tbody>
-    </table>
+    <div class="container">
+        <h1>Daftar Referensi Systematic Mapping Study</h1>
+        <div id="error"></div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Cite Key</th>
+                        <th>Judul</th>
+                        <th>Abstrak</th>
+                    </tr>
+                </thead>
+                <tbody id="bibBody"></tbody>
+            </table>
+        </div>
+    </div>
     <script src="main.js" type="module"></script>
 </body>
 </html>

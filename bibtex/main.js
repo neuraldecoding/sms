@@ -62,16 +62,17 @@ window.addEventListener('load', function() {
 
             entries.forEach((entry, index) => {
                 const row = bibBody.insertRow();
-                const cells = [
-                    index + 1,
-                    entry.key,
-                    entry.fields.title || '',
-                    entry.fields.abstract || ''
+                const cellsData = [
+                    { label: 'No', value: index + 1 },
+                    { label: 'Cite Key', value: entry.key },
+                    { label: 'Judul', value: entry.fields.title || '' },
+                    { label: 'Abstrak', value: entry.fields.abstract || '' }
                 ];
                 
-                cells.forEach(text => {
+                cellsData.forEach(({ label, value }) => {
                     const cell = row.insertCell();
-                    cell.textContent = text;
+                    cell.setAttribute('data-label', label);
+                    cell.textContent = value;
                 });
             });
 
