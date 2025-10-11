@@ -25,12 +25,30 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 
 ## Search Strategy
 
+<img width="934" height="493" alt="image" src="https://github.com/user-attachments/assets/98f5ce97-6761-4799-8eb6-51778ee359c1" />
+
+
 | Komponen | Deskripsi |
 | --- | --- |
 | **Sumber Database** | Scopus, IEEE Xplore, ~~PubMed, SpringerLink, ScienceDirect, ACM Digital Library~~(dua dulu, udah banyak :D) |
 | **Rentang Tahun** | 2019–2026 *(dipilih rentang 6 tahun terakhir agar bisa terlihat trend saat ini dan apakah masih ada peluang gap penelitian lanjutan)* |
 | **Bahasa** | English |
-| **Kata Kunci Utama (Search String)** | `("brain decoding" OR "neural decoding" OR "stimulus reconstruction" OR "brain reading" OR "visual reconstruction") AND ("EEG" OR "fMRI" OR "MEG" OR "NIRS" OR "BCI") AND ("deep learning" OR "machine learning" OR "VAE" OR "GAN" OR "transformer" OR "CLIP" OR "diffusion model")` |
+| **Kata Kunci Pencarian (Search String Scopus)** | `( 
+  ( TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) ) 
+  AND 
+  ( TITLE-ABS-KEY ( "visual cortex" ) OR TITLE-ABS-KEY ( "image reconstruction" ) )
+) 
+AND PUBYEAR > 2019 AND PUBYEAR < 2027` |
+| **Kata Kunci Pencarian (Search String IEEE Xplore)** | `"neural decoding" OR "brain decoding"
+
+AND
+
+ "visual cortex" OR "image reconstruction"
+
+
+Publication Year
+2019 to 2026
+` |
 | **Jenis Publikasi** | Journal, Conference, Book Chapter (peer-reviewed) |
 
 ## Inclusion and Exclusion Criteria
