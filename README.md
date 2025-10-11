@@ -31,7 +31,7 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 | Komponen | Deskripsi |
 | --- | --- |
 | **Sumber Database** | Scopus, IEEE Xplore, ~~PubMed, SpringerLink, ScienceDirect, ACM Digital Library~~(dua dulu, udah banyak :D) |
-| **Rentang Tahun** | 2019–2026 *(dipilih rentang 6 tahun terakhir agar bisa terlihat trend saat ini dan apakah masih ada peluang gap penelitian lanjutan)* |
+| **Rentang Tahun** | 2019–2027 *(dipilih rentang 8 tahun terakhir agar bisa terlihat trend saat ini dan apakah masih ada peluang gap penelitian lanjutan)* |
 | **Bahasa** | English |
 | **Kata Kunci Pencarian (Search String Scopus)** | `( ( TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) ) AND ( TITLE-ABS-KEY ( "visual cortex" ) OR TITLE-ABS-KEY ( "image reconstruction" ) )) AND PUBYEAR > 2019 AND PUBYEAR < 2027` |
 | **URL Hasil Pencarian Scopus** | `https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=e0fb38e56ceb4ccc9b9cb87a68a7e449&sot=a&sdt=a&sl=211&s=%28+%28+TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29+%29+AND+%28+TITLE-ABS-KEY+%28+%22visual+cortex%22+%29+OR+TITLE-ABS-KEY+%28+%22image+reconstruction%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=aa3784a413bf1d310e2527d64bcd7eac&sessionSearchId=e0fb38e56ceb4ccc9b9cb87a68a7e449&limit=200` |
