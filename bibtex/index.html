@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>BibTeX Reader</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BibTeX References</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            position: sticky;
+            top: 0;
+        }
+        td {
+            vertical-align: top;
+        }
+        #error {
+            color: red;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid red;
+            display: none;
+        }
+    </style>
 </head>
 <body>
-  <h1>Hasil Parser BibTeX</h1>
-  <pre id="output"></pre>
-  <script type="module" src="main.js"></script>
+    <h1>Daftar Referensi</h1>
+    <div id="error"></div>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Cite Key</th>
+                <th>Judul</th>
+                <th>Abstrak</th>
+            </tr>
+        </thead>
+        <tbody id="bibBody"></tbody>
+    </table>
+    <script src="main.js" type="module"></script>
 </body>
 </html>
