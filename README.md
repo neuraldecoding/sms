@@ -8,7 +8,17 @@
 
 Visual neural decoding is a research field focused on interpreting neural signals to reconstruct or understand visual information processed by the brain. This systematic mapping study (SMS) aims to provide an overview of research trends, methods, datasets, and applications in visual neural decoding.
 
-Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modalitas neuroimaging, seperti fMRI, MEG, NIRS, atau multimodal fusion (EEG+fMRI, EEG+Eye-tracking, dll).
+Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modalitas neuroimaging, seperti fMRI, MEG, NIRS, atau multimodal fusion (EEG+fMRI, EEG+Eye-tracking, dll). Pengolahan meta data artikel berupa bibtex, dengan langkah:
+
+1. Diagnostik bibtex entry sintaks error dan tidak lengkap
+2. Standarisasi format bibtex
+3. Diagnostik hasil standarisasi
+4. Merubah citation key agar deskriptif
+5. Merge dan deduplikkasi bibtex dari multi sumber
+
+```url
+https://colab.research.google.com/drive/1dK1OTfULLtE1d9Gd-a5iWjef9h8PjUD2?usp=sharing
+```
 
 ## Research Questions
 
