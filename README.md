@@ -33,22 +33,8 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 | **Sumber Database** | Scopus, IEEE Xplore, ~~PubMed, SpringerLink, ScienceDirect, ACM Digital Library~~(dua dulu, udah banyak :D) |
 | **Rentang Tahun** | 2019–2026 *(dipilih rentang 6 tahun terakhir agar bisa terlihat trend saat ini dan apakah masih ada peluang gap penelitian lanjutan)* |
 | **Bahasa** | English |
-| **Kata Kunci Pencarian (Search String Scopus)** | `( 
-  ( TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) ) 
-  AND 
-  ( TITLE-ABS-KEY ( "visual cortex" ) OR TITLE-ABS-KEY ( "image reconstruction" ) )
-) 
-AND PUBYEAR > 2019 AND PUBYEAR < 2027` |
-| **Kata Kunci Pencarian (Search String IEEE Xplore)** | `"neural decoding" OR "brain decoding"
-
-AND
-
- "visual cortex" OR "image reconstruction"
-
-
-Publication Year
-2019 to 2026
-` |
+| **Kata Kunci Pencarian (Search String Scopus)** | `( ( TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) ) AND ( TITLE-ABS-KEY ( "visual cortex" ) OR TITLE-ABS-KEY ( "image reconstruction" ) )) AND PUBYEAR > 2019 AND PUBYEAR < 2027` |
+| **Kata Kunci Pencarian (Search String IEEE Xplore)** | `"neural decoding" OR "brain decoding" AND "visual cortex" OR "image reconstruction" Publication Year2019 to 2026` |
 | **Jenis Publikasi** | Journal, Conference, Book Chapter (peer-reviewed) |
 
 ## Inclusion and Exclusion Criteria
