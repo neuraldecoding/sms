@@ -8,17 +8,7 @@
 
 Visual neural decoding is a research field focused on interpreting neural signals to reconstruct or understand visual information processed by the brain. This systematic mapping study (SMS) aims to provide an overview of research trends, methods, datasets, and applications in visual neural decoding.
 
-Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modalitas neuroimaging, seperti fMRI, MEG, NIRS, atau multimodal fusion (EEG+fMRI, EEG+Eye-tracking, dll). Pengolahan meta data artikel berupa bibtex, dengan langkah:
-
-1. Diagnostik bibtex entry sintaks error dan tidak lengkap
-2. Standarisasi format bibtex
-3. Diagnostik hasil standarisasi
-4. Merubah citation key agar deskriptif
-5. Merge dan deduplikkasi bibtex dari multi sumber
-
-```url
-https://colab.research.google.com/drive/1dK1OTfULLtE1d9Gd-a5iWjef9h8PjUD2?usp=sharing
-```
+Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modalitas neuroimaging, seperti fMRI, MEG, NIRS, atau multimodal fusion (EEG+fMRI, EEG+Eye-tracking, dll). 
 
 ## Research Questions
 
@@ -56,6 +46,26 @@ Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 
 <img width="1263" height="700" alt="image" src="https://github.com/user-attachments/assets/18327f57-0054-4c85-bdc4-c4dea959fd32" />
 
+
+Pengolahan meta data artikel berupa bibtex, dengan langkah:
+
+1. Diagnostik bibtex entry sintaks error dan tidak lengkap
+2. Standarisasi format bibtex
+3. Diagnostik hasil standarisasi
+4. Merubah citation key agar deskriptif
+5. Merge dan deduplikkasi bibtex dari multi sumber
+
+```url
+https://colab.research.google.com/drive/1dK1OTfULLtE1d9Gd-a5iWjef9h8PjUD2?usp=sharing
+```
+
+Hasil akhir referensi [bibtex](./bibtex/references_final.bib):
+* Files processed: 2 (Scopus dan IEEE)
+* Total entries imported: 140
+* Duplicates removed: 22
+* Final unique entries: 118
+
+
 ## Inclusion and Exclusion Criteria
 
 | Kriteria | Deskripsi |
@@ -69,7 +79,7 @@ Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 3. Full-text review for eligibility
 4. Data extraction
 
-## Classification Schema
+### Classification Schema
 
 | Dimensi | Contoh Kategori |
 | --- | --- |
@@ -83,7 +93,7 @@ Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 | **Publication Year** | 2010–2025 |
 
 
-## Data Extraction Schema
+### Data Extraction Schema
 
 | No  | Judul & Tahun | Penulis | Modality | Tujuan | Dataset        | Metode | Evaluasi | Kontribusi | Research Gap |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -91,6 +101,12 @@ Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 | 2   | ...           | ...     | EEG      | Klasifikasi digit visual    | MindBigData    | CNN                    | Accuracy = 88% | CNN temporal filtering                  | Perlu integrasi multimodal   |
 | 3   | ...           | ...     | EEG+fMRI | Multimodal decoding         | Custom dataset | CLIP-VAE Fusion        | SSIM = 0.72    | Fusion alignment model                  | Belum ada dataset publik     |
 | ... | ...           | ...     | ...      | ...                         | ...            | ...                    | ...            | ...                                     | ...                          |
+
+Hasil ektraksi:
+
+```url
+https://docs.google.com/spreadsheets/d/1TWkv7n-F96OXW1z-PU_g6YiGPr3xm52Z/edit?usp=sharing&ouid=101355051459571992089&rtpof=true&sd=true
+```
 
 
 ## Visualisasi hasil pemetaan
