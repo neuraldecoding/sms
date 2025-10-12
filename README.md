@@ -76,7 +76,7 @@ Hasil akhir referensi berupa [tabel daftar referensi](https://neuraldecoding.git
 
 ## Study Selection Process
 1. Initial search using keywords and strings
-2. Screening titles and abstracts
+2. [Screening titles and abstracts](https://neuraldecoding.github.io/sms/bibtex/)
 3. Full-text review for eligibility
 4. Data extraction
 
