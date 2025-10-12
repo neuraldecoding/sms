@@ -64,6 +64,28 @@ td {
     vertical-align: top;
 }
 
+/* Styling untuk link DOI */
+td a {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Dark mode support untuk link */
+@media (prefers-color-scheme: dark) {
+    td a {
+        color: inherit;
+    }
+    
+    td a:hover {
+        color: #4a9eff;
+    }
+}
+
 tr:nth-child(even) {
     background-color: #f8f9fa;
 }

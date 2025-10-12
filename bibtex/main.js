@@ -62,17 +62,41 @@ window.addEventListener('load', function() {
 
             entries.forEach((entry, index) => {
                 const row = bibBody.insertRow();
+                
+                // Fungsi untuk membuat link DOI
+                const createDoiLink = (doi, text) => {
+                    if (!doi) return text;
+                    const a = document.createElement('a');
+                    a.href = `https://doi.org/${doi}`;
+                    a.textContent = text;
+                    a.target = '_blank'; // Buka di tab baru
+                    a.style.color = 'inherit'; // Mengikuti warna teks parent
+                    a.style.textDecoration = 'none'; // Hapus garis bawah default
+                    a.addEventListener('mouseover', () => a.style.textDecoration = 'underline');
+                    a.addEventListener('mouseout', () => a.style.textDecoration = 'none');
+                    return a;
+                };
+
                 const cellsData = [
                     { label: 'No', value: index + 1 },
-                    { label: 'Cite Key', value: entry.key },
+                    { 
+                        label: 'Cite Key', 
+                        value: entry.key,
+                        isLink: true,
+                        doi: entry.fields.doi
+                    },
                     { label: 'Judul', value: entry.fields.title || '' },
                     { label: 'Abstrak', value: entry.fields.abstract || '' }
                 ];
                 
-                cellsData.forEach(({ label, value }) => {
+                cellsData.forEach(({ label, value, isLink, doi }) => {
                     const cell = row.insertCell();
                     cell.setAttribute('data-label', label);
-                    cell.textContent = value;
+                    if (isLink && doi) {
+                        cell.appendChild(createDoiLink(doi, value));
+                    } else {
+                        cell.textContent = value;
+                    }
                 });
             });
 
