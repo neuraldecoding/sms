@@ -59,11 +59,12 @@ Pengolahan meta data artikel berupa bibtex, dengan langkah:
 https://colab.research.google.com/drive/1dK1OTfULLtE1d9Gd-a5iWjef9h8PjUD2?usp=sharing
 ```
 
-Hasil akhir referensi [bibtex](./bibtex/references_final.bib):
+Hasil akhir referensi berupa [tabel daftar referensi](https://neuraldecoding.github.io/sms/bibtex/) dan file [bibtex](./bibtex/references_final.bib):
 * Files processed: 2 (Scopus dan IEEE)
 * Total entries imported: 140
 * Duplicates removed: 22
 * Final unique entries: 118
+
 
 
 ## Inclusion and Exclusion Criteria
