@@ -120,16 +120,16 @@ Untuk menjawan RQ 3 dengan menggunakan Systematic Topic Modeling
 
 | Topik | Keywords |
 | --- | --- |
-| 1 | "fmri, proposed, subject, semantic, method, channel, quality, subjects, limited, novel, activity, https, functional, specifically, framework" |
-| 2 | "fmri, encoding, deep, network, features, human, natural, stimulus, proposed, functional, stimuli, imaging, framework, activities, magnetic" |
-| 3 | "fmri, latent, stimuli, language, stage, space, text, semantic, research, level, high, training, features, natural, eeg" |
-| 4 | "fmri, training, method, similarity, level, high, attention, tasks, signals, diffusion, cognitive, features, experimental, structural, patterns" |
-| 5 | "cortex, speech, activity, motor, control, communication, single, field, neurons, accuracy, signals, bci, movements, responses, sensory" |
-| 6 | "cortex, signals, early, temporal, response, imagery, accuracy, areas, time, patterns, framework, natural, spatial, higher, object" |
-| 7 | "eeg, hierarchical, features, learning, high, semantic, method, activity, performance, novel, processing, imagery, recent, low, proposed" |
-| 8 | "imagery, space, features, semantic, stimuli, fmri, gan, activity, level, human, classification, imagined, similarity, regions, accuracy" |
-| 9 | "self, gans, learning, deep, direction, patterns, estimation, linear, adversarial, inspired, new, systems, applications, artificial, vision" |
-| 10 | "human, representations, feature, latent, high, diffusion, activity, state, fmri, features, art, generative, level, layers, natural" |
+| 1 | "human, activities, accuracy, encoding, network, framework, performance, feature, features, cortex" |
+| 2 | "fmri, space, stimuli, activity, training, eeg, latent, signals, human, features"|
+| 3 | "eeg, feature, encoding, high, stimulus, imaging, noise, framework, signals, performance" |
+| 4 | "speech, activity, cortex, motor, stimuli, single, neurons, field, population, communication" |
+| 5 | "imagery, eeg, proposed, channel, network, self, mental, source, decoder, trained" |
+| 6 | "method, encoding, fmri, attention, human, deep, stimuli, proposed, activity, natural" |
+| 7 | "representations, cortex, memory, control, cognitive, research, variability, patterns, activity, network" |
+| 8 | "natural, perceptual, quality, similarity, network, algorithm, ssim, features, signals, high" |
+| 9 | "eeg, signals, representation, depth, insights, work, multimodal, modalities, focus, comprehensive" |
+| 10 | "fmri, semantic, features, deep, natural, level, stimulus, learning, functional, latent" |
 
 <img width="989" height="3990" alt="image" src="https://github.com/user-attachments/assets/06b6f98d-1b22-4373-82dd-64a97bd1a795" />
 
