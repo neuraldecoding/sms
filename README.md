@@ -21,26 +21,7 @@ The literature review (SMS) aims to answer the following research questions (Exa
 * <span style="color:blue">**RQ2**</span> : Apa saja yang termasuk pada area topik penelitian **Visual Neural Encoding**? 
 * **RQ3** : Bagaimana trend topik dan apa topik saat ini yang merupakan promising research topic pada **Visual Neural Encoding** ? 
 
-
-## Bibliometric Analysis
-
-## Topic Analysis
-
-
-## Research Questions
-
-| Kode | Pertanyaan Penelitian | Tujuan |
-| --- | --- | --- |
-| RQ1  | Apa saja **jenis sinyal otak (modality)** yang digunakan dalam penelitian brain decoding dan rekonstruksi stimulus? | Mengidentifikasi seberapa banyak studi yang berbasis EEG, fMRI, MEG, NIRS, dll.                          |
-| RQ2  | Apa **tujuan utama penelitian** dalam bidang brain decoding?                                                        | Mengetahui orientasi penelitian: klasifikasi, rekonstruksi visual/auditori, kontrol motorik, emosi, dsb. |
-| RQ3  | **Metode dan arsitektur AI** apa yang digunakan untuk decoding atau rekonstruksi?                                   | Mengidentifikasi tren model: CNN, RNN, Transformer, VAE, CLIP, Diffusion, dsb.                           |
-| RQ4  | Bagaimana **strategi multimodal fusion** (EEG–fMRI, EEG–Eye-tracking, dsb) diterapkan dalam decoding?               | Memetakan integrasi data otak lintas modalitas.                                                          |
-| RQ5  | **Dataset dan sumber data** apa yang digunakan, serta bagaimana ketersediaannya (publik vs tertutup)?               | Menilai aksesibilitas dataset untuk replikasi.                                                           |
-| RQ6  | **Metrik evaluasi** apa yang digunakan untuk menilai performa decoding/reconstruction?                              | Menganalisis standar penilaian hasil (Accuracy, SSIM, FID, MSE, dsb).                                    |
-| RQ7  | Apa saja **tren dan celah penelitian (research gaps)** di bidang ini?                                               | Mengidentifikasi arah riset masa depan.                                                                  |
-
-
-## Search Strategy
+### Search Query
 
 Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 
@@ -55,11 +36,11 @@ Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 | **URL Hasil IEEE Xplore** | `https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22All%20Metadata%22:%22neural%20decoding%22%20OR%20%22All%20Metadata%22:%22brain%20decoding%22)%20AND%20(%22All%20Metadata%22:%22visual%20cortex%22%20OR%20%22All%20Metadata%22:%22image%20reconstruction%22)&ranges=2019_2026_Year` |
 | **Jenis Publikasi** | Journal, Conference, Book Chapter (peer-reviewed) |
 
-### Keyword scopus
+**Keyword scopus**
 
 <img width="1334" height="596" alt="image" src="https://github.com/user-attachments/assets/657dd394-b411-4f4f-bcf1-e3d3ac2565b6" />
 
-### Keyword IEEE Xplore
+**Keyword IEEE Xplore**
 
 <img width="1263" height="700" alt="image" src="https://github.com/user-attachments/assets/18327f57-0054-4c85-bdc4-c4dea959fd32" />
 
@@ -81,6 +62,24 @@ Hasil akhir referensi berupa [tabel daftar referensi](https://neuraldecoding.git
 * Total entries imported: 140
 * Duplicates removed: 22
 * Final unique entries: 118
+
+
+## Bibliometric Analysis
+
+## Topic Analysis
+
+
+## Research Questions
+
+| Kode | Pertanyaan Penelitian | Tujuan |
+| --- | --- | --- |
+| RQ1  | Apa saja **jenis sinyal otak (modality)** yang digunakan dalam penelitian brain decoding dan rekonstruksi stimulus? | Mengidentifikasi seberapa banyak studi yang berbasis EEG, fMRI, MEG, NIRS, dll.                          |
+| RQ2  | Apa **tujuan utama penelitian** dalam bidang brain decoding?                                                        | Mengetahui orientasi penelitian: klasifikasi, rekonstruksi visual/auditori, kontrol motorik, emosi, dsb. |
+| RQ3  | **Metode dan arsitektur AI** apa yang digunakan untuk decoding atau rekonstruksi?                                   | Mengidentifikasi tren model: CNN, RNN, Transformer, VAE, CLIP, Diffusion, dsb.                           |
+| RQ4  | Bagaimana **strategi multimodal fusion** (EEG–fMRI, EEG–Eye-tracking, dsb) diterapkan dalam decoding?               | Memetakan integrasi data otak lintas modalitas.                                                          |
+| RQ5  | **Dataset dan sumber data** apa yang digunakan, serta bagaimana ketersediaannya (publik vs tertutup)?               | Menilai aksesibilitas dataset untuk replikasi.                                                           |
+| RQ6  | **Metrik evaluasi** apa yang digunakan untuk menilai performa decoding/reconstruction?                              | Menganalisis standar penilaian hasil (Accuracy, SSIM, FID, MSE, dsb).                                    |
+| RQ7  | Apa saja **tren dan celah penelitian (research gaps)** di bidang ini?                                               | Mengidentifikasi arah riset masa depan.                                                                  |
 
 
 
