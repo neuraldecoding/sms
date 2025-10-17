@@ -132,9 +132,7 @@ Untuk menjawan RQ 3 dengan menggunakan Systematic Topic Modeling
 | 9 | "self, gans, learning, deep, direction, patterns, estimation, linear, adversarial, inspired, new, systems, applications, artificial, vision" |
 | 10 | "human, representations, feature, latent, high, diffusion, activity, state, fmri, features, art, generative, level, layers, natural" |
 
-
-<img width="989" height="3990" alt="image" src="https://github.com/user-attachments/assets/226148bb-9d95-41f9-9cdf-2773fbab8827" />
-
+<img width="989" height="3990" alt="image" src="https://github.com/user-attachments/assets/06b6f98d-1b22-4373-82dd-64a97bd1a795" />
 
 ## Research Questions
 
