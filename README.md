@@ -87,9 +87,6 @@ Total publikasi (harus 118 untuk 2017-2022): 118
 | Book Chapter | 0|	0|	0|	0|	0|	0|	0|	0|	0|
 | Jumlah | 5	|12	|12	|15	|15	|28	|31	|0	|0|
 
-
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/630480b7-01f2-47a1-9684-c29f25225c7d" />
-
 <img width="1190" height="690" alt="image" src="https://github.com/user-attachments/assets/639b1353-5f9c-46f7-8653-b8cbd02e60f7" />
 
 <img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/d04fcb69-8599-4ea4-82c6-43e2d0e4549a" />
@@ -116,6 +113,8 @@ Untuk menjawab RQ2
 
 
 ## Topic Analysis
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/f937df4f-9057-47ac-b2ea-9f23cdb4b179" />
 
 Untuk menjawan RQ 3 dengan menggunakan Systematic Topic Modeling
 
