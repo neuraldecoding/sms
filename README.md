@@ -98,6 +98,23 @@ Total publikasi (harus 118 untuk 2017-2022): 118
 
 ## Bibliometric Analysis
 
+Untuk menjawab RQ2
+
+<img width="875" height="581" alt="image" src="https://github.com/user-attachments/assets/544e939e-c164-40b7-99c4-d97f0bbf4236" />
+
+<img width="892" height="571" alt="image" src="https://github.com/user-attachments/assets/0412c4ea-c37c-4149-9e00-8f63708a7edc" />
+
+<img width="867" height="562" alt="image" src="https://github.com/user-attachments/assets/d98e5f60-6330-49a5-a0be-42f6f931e0bc" />
+
+<img width="851" height="579" alt="image" src="https://github.com/user-attachments/assets/816f4fc3-7565-4850-904e-9b7c64a83ca3" />
+
+<img width="877" height="571" alt="image" src="https://github.com/user-attachments/assets/48ff8bdc-21f4-4279-ba95-5d0ec8c7b671" />
+
+<img width="869" height="571" alt="image" src="https://github.com/user-attachments/assets/65da848f-37e8-4bb1-81e9-7516f6e73bec" />
+
+<img width="882" height="573" alt="image" src="https://github.com/user-attachments/assets/8166cb01-1aea-4bb4-8f44-8218fb3a997b" />
+
+
 ## Topic Analysis
 
 
