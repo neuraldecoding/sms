@@ -120,6 +120,7 @@ Untuk menjawab RQ2
 Untuk menjawan RQ 3 dengan menggunakan Systematic Topic Modeling
 
 
+<img width="989" height="3990" alt="image" src="https://github.com/user-attachments/assets/226148bb-9d95-41f9-9cdf-2773fbab8827" />
 
 
 ## Research Questions
