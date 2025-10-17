@@ -92,6 +92,8 @@ Total publikasi (harus 118 untuk 2017-2022): 118
 
 <img width="1190" height="690" alt="image" src="https://github.com/user-attachments/assets/639b1353-5f9c-46f7-8653-b8cbd02e60f7" />
 
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/d04fcb69-8599-4ea4-82c6-43e2d0e4549a" />
+
 
 
 ## Bibliometric Analysis
