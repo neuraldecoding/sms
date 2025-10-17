@@ -117,6 +117,10 @@ Untuk menjawab RQ2
 
 ## Topic Analysis
 
+Untuk menjawan RQ 3 dengan menggunakan Systematic Topic Modeling
+
+
+
 
 ## Research Questions
 
