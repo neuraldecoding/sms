@@ -45,6 +45,8 @@ Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 <img width="1263" height="700" alt="image" src="https://github.com/user-attachments/assets/18327f57-0054-4c85-bdc4-c4dea959fd32" />
 
 
+### Study Selection
+
 Pengolahan meta data artikel berupa bibtex, dengan langkah:
 
 1. Diagnostik bibtex entry sintaks error dan tidak lengkap
@@ -56,12 +58,40 @@ Pengolahan meta data artikel berupa bibtex, dengan langkah:
 ```url
 https://colab.research.google.com/drive/1dK1OTfULLtE1d9Gd-a5iWjef9h8PjUD2?usp=sharing
 ```
+### Data Extraction
 
 Hasil akhir referensi berupa [tabel daftar referensi](https://neuraldecoding.github.io/sms/bibtex/) dan file [bibtex](./bibtex/references_final.bib):
 * Files processed: 2 (Scopus dan IEEE)
 * Total entries imported: 140
 * Duplicates removed: 22
 * Final unique entries: 118
+
+### Study Selection to Answer RQ1
+
+Total data setelah filter tahun: 118
+
+Distribusi kategori:
+category
+Article             81
+Conference Paper    37
+Name: count, dtype: int64
+
+Total entries: 118
+
+Total publikasi (harus 118 untuk 2017-2022): 118
+| year | 2019 | 2020 | 2021 |	2022 | 2023 | 2024 | 2025 |	2026 | 2027 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| Article | 2 | 8 | 9 | 7 | 9 | 18 | 28 | 0 | 0 |
+| Conference Paper | 3 | 4 | 3 | 8 | 6 | 10 | 3 | 0 | 0 |
+| Book | 0	|0	|0	|0	|0	|0	|0	|0	|0|
+| Book Chapter | 0|	0|	0|	0|	0|	0|	0|	0|	0|
+| Jumlah | 5	|12	|12	|15	|15	|28	|31	|0	|0|
+
+
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/630480b7-01f2-47a1-9684-c29f25225c7d" />
+
+<img width="1190" height="690" alt="image" src="https://github.com/user-attachments/assets/639b1353-5f9c-46f7-8653-b8cbd02e60f7" />
+
 
 
 ## Bibliometric Analysis
