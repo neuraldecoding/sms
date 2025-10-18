@@ -1,7 +1,0 @@
-library(bibliometrix)
-data <- convert2df("scopus.bib", dbsource = "scopus", format = "bibtex")
-results <- biblioAnalysis(data)
-S <- summary(results, k = 10, pause = FALSE)
-plot(x = S, k = 10, pause = FALSE)
-NetMatrix <- biblioNetwork(data, analysis = "co-citation", network = "references", sep = ";")
-net <- networkPlot(NetMatrix, n = 30, Title = "Co-Citation Network", type = "fruchterman", size = TRUE, remove.multiple = FALSE, labelsize = 0.5)
