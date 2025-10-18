@@ -49,7 +49,7 @@ Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 2. Standarisasi format bibtex
 3. Diagnostik hasil standarisasi
 4. Merubah citation key agar deskriptif
-5. Merge dan deduplikkasi bibtex dari multi sumber
+5. [Merge dan deduplikkasi bibtex dari multi sumber](https://neuraldecoding.github.io/sms/bibtex/)
 
 ```url
 https://colab.research.google.com/drive/1dK1OTfULLtE1d9Gd-a5iWjef9h8PjUD2?usp=sharing
@@ -63,6 +63,8 @@ Hasil akhir referensi berupa [tabel daftar referensi](https://neuraldecoding.git
 * Final unique entries: 118
 
 ### Study Selection to Answer RQ1
+
+[Kode program untuk pengolahan data](https://colab.research.google.com/drive/16A-BISyPvpvAuQ_BtgljR6gE8vRt0yzd?usp=sharing)
 
 Total data setelah filter tahun: 118
 
@@ -94,26 +96,40 @@ Total publikasi (harus 118 untuk 2017-2022): 118
 
 Untuk menjawab RQ2
 
+Topik-topik yang terkait:
+
+**visual neural encoding**  
 <img width="875" height="581" alt="image" src="https://github.com/user-attachments/assets/544e939e-c164-40b7-99c4-d97f0bbf4236" />
 
+**eeg**  
 <img width="892" height="571" alt="image" src="https://github.com/user-attachments/assets/0412c4ea-c37c-4149-9e00-8f63708a7edc" />
 
+**artificial intelligence**  
 <img width="867" height="562" alt="image" src="https://github.com/user-attachments/assets/d98e5f60-6330-49a5-a0be-42f6f931e0bc" />
 
+**algorithm**  
 <img width="851" height="579" alt="image" src="https://github.com/user-attachments/assets/816f4fc3-7565-4850-904e-9b7c64a83ca3" />
 
+**recontructed image**  
 <img width="877" height="571" alt="image" src="https://github.com/user-attachments/assets/48ff8bdc-21f4-4279-ba95-5d0ec8c7b671" />
 
+**latent space**  
 <img width="869" height="571" alt="image" src="https://github.com/user-attachments/assets/65da848f-37e8-4bb1-81e9-7516f6e73bec" />
 
+
+**brain signal**  
 <img width="882" height="573" alt="image" src="https://github.com/user-attachments/assets/8166cb01-1aea-4bb4-8f44-8218fb3a997b" />
 
 
 ## Topic Analysis
 
+Untuk menjawan RQ 3 dengan menggunakan Systematic Topic Modeling.
+
+Word Cloud:  
+
 <img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/f937df4f-9057-47ac-b2ea-9f23cdb4b179" />
 
-Untuk menjawan RQ 3 dengan menggunakan Systematic Topic Modeling
+**Pengelompokan topik berdasarkan keyword**
 
 | Topik | Keywords |
 | --- | --- |
@@ -128,105 +144,8 @@ Untuk menjawan RQ 3 dengan menggunakan Systematic Topic Modeling
 | 9 | "eeg, signals, representation, depth, insights, work, multimodal, modalities, focus, comprehensive" |
 | 10 | "fmri, semantic, features, deep, natural, level, stimulus, learning, functional, latent" |
 
+**Trend dari setiap topik per keyword**
+
 <img width="989" height="3990" alt="image" src="https://github.com/user-attachments/assets/06b6f98d-1b22-4373-82dd-64a97bd1a795" />
 
-## Research Questions
 
-| Kode | Pertanyaan Penelitian | Tujuan |
-| --- | --- | --- |
-| RQ1  | Apa saja **jenis sinyal otak (modality)** yang digunakan dalam penelitian brain decoding dan rekonstruksi stimulus? | Mengidentifikasi seberapa banyak studi yang berbasis EEG, fMRI, MEG, NIRS, dll.                          |
-| RQ2  | Apa **tujuan utama penelitian** dalam bidang brain decoding?                                                        | Mengetahui orientasi penelitian: klasifikasi, rekonstruksi visual/auditori, kontrol motorik, emosi, dsb. |
-| RQ3  | **Metode dan arsitektur AI** apa yang digunakan untuk decoding atau rekonstruksi?                                   | Mengidentifikasi tren model: CNN, RNN, Transformer, VAE, CLIP, Diffusion, dsb.                           |
-| RQ4  | Bagaimana **strategi multimodal fusion** (EEG–fMRI, EEG–Eye-tracking, dsb) diterapkan dalam decoding?               | Memetakan integrasi data otak lintas modalitas.                                                          |
-| RQ5  | **Dataset dan sumber data** apa yang digunakan, serta bagaimana ketersediaannya (publik vs tertutup)?               | Menilai aksesibilitas dataset untuk replikasi.                                                           |
-| RQ6  | **Metrik evaluasi** apa yang digunakan untuk menilai performa decoding/reconstruction?                              | Menganalisis standar penilaian hasil (Accuracy, SSIM, FID, MSE, dsb).                                    |
-| RQ7  | Apa saja **tren dan celah penelitian (research gaps)** di bidang ini?                                               | Mengidentifikasi arah riset masa depan.                                                                  |
-
-
-
-## Inclusion and Exclusion Criteria
-
-| Kriteria | Deskripsi |
-| --- | --- |
-| **Inclusion** | (1) Studi menggunakan sinyal otak (EEG, fMRI, MEG, NIRS, atau multimodal). <br> (2) Fokus pada decoding, klasifikasi, atau rekonstruksi stimulus. <br> (3) Menggunakan pendekatan AI/ML/DL. <br> (4) Publikasi peer-reviewed dengan hasil empiris. |
-| **Exclusion** | (1) Studi hanya membahas teori tanpa eksperimen. <br> (2) Studi klinis murni (tanpa decoding). <br> (3) Fokus pada neurofeedback tanpa decoding stimulus. <br> (4) Paper duplikat antar sumber.                                                    |
-
-## Study Selection Process
-1. Initial search using keywords and strings
-2. [Validation and Deduplicate](https://neuraldecoding.github.io/sms/bibtex/)
-2. [Screening titles and abstracts](https://neuraldecoding.github.io/sms/screening/)
-3. Full-text review for eligibility
-4. Data extraction
-
-### Classification Schema
-
-| Dimensi | Contoh Kategori |
-| --- | --- |
-| **Modality** | EEG, fMRI, MEG, NIRS, Multimodal |
-| **Research Objective** | Classification, Reconstruction, Prediction, Emotion Recognition |
-| **Learning Type** | Supervised, Unsupervised, Self-Supervised, Contrastive |
-| **Architecture** | CNN, RNN, VAE, GAN, CLIP, Diffusion |
-| **Stimulus Type** | Visual, Auditory, Textual, Motor |
-| **Dataset Type** | Public, Private, Synthetic |
-| **Evaluation Metric** | Accuracy, SSIM, FID, Correlation, MSE, R² |
-| **Publication Year** | 2010–2025 |
-
-
-### Data Extraction Schema
-
-| No  | Judul & Tahun | Penulis | Modality | Tujuan | Dataset        | Metode | Evaluasi | Kontribusi | Research Gap |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1   | ...           | ...     | fMRI     | Rekonstruksi gambar natural | NSD Dataset    | Diffusion Model + CLIP | FID = 12.4     | Text-to-image reconstruction from brain | Perlu validasi cross-subject |
-| 2   | ...           | ...     | EEG      | Klasifikasi digit visual    | MindBigData    | CNN                    | Accuracy = 88% | CNN temporal filtering                  | Perlu integrasi multimodal   |
-| 3   | ...           | ...     | EEG+fMRI | Multimodal decoding         | Custom dataset | CLIP-VAE Fusion        | SSIM = 0.72    | Fusion alignment model                  | Belum ada dataset publik     |
-| ... | ...           | ...     | ...      | ...                         | ...            | ...                    | ...            | ...                                     | ...                          |
-
-Hasil ektraksi:
-
-```url
-https://docs.google.com/spreadsheets/d/1TWkv7n-F96OXW1z-PU_g6YiGPr3xm52Z/edit?usp=sharing&ouid=101355051459571992089&rtpof=true&sd=true
-```
-
-
-## Visualisasi hasil pemetaan
-
-Gunakan hasil data untuk menghasilkan peta seperti:
-1. Tren publikasi per tahun (2019–2026)
-   * Increasing use of deep learning since 2019
-   * Shift from simple classification to complex reconstruction tasks
-   * Growing interest in real-time decoding
-2. Distribusi modality vs metode
-   * (contoh: fMRI–VAE dominan; EEG–CNN meningkat)
-3. Peta tujuan penelitian
-   * (klasifikasi vs rekonstruksi)
-4. Distribusi dataset publik vs private (e.g., HCP, OpenNeuro)
-5. Gap Analysis Chart
-   * area dengan publikasi rendah namun penting (misal: multimodal fusion atau real-time decoding)
-
-### Visualization
-- [ ] Bubble chart: Methods vs. Application Areas
-- [ ] Timeline: Number of publications per year
-- [ ] Table: Dataset usage frequency
-
-## Expected Insight
-
-1. Tren global: pergeseran dari decoding linear (SLR) → deep generative models (VAE, Diffusion).
-2. Dominasi modality: fMRI banyak untuk visual decoding, EEG lebih untuk klasifikasi emosi/simbol.
-3. Kesenjangan:
-   * Minimnya dataset multimodal publik.
-   * Kurangnya studi cross-subject dan zero-shot generalization.
-   * Masih sedikit yang memanfaatkan self-supervised atau foundation models (mis. CLIP, LLaVA, Kosmos-2).
-
-## Format Output yang Disarankan
-
-Output SMS ini bisa disajikan dalam:
-1. Paper mapping (seperti di Information and Software Technology atau Neuroinformatics Journal).
-2. Spreadsheet hasil ekstraksi (Excel/CSV) untuk visualisasi di Python (Pandas/Matplotlib).
-3. Diagram taxonomy:
-   * Level 1: Modality
-   * Level 2: Objective
-   * Level 3: Model type
-   * Level 4: Evaluation metric / Dataset
-
-## References
-List of selected studies (to be filled after literature review).
