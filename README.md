@@ -13,7 +13,7 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 ![mapping](https://github.com/user-attachments/assets/316aa5ae-f84e-465a-b82c-8e44710f3b30)
 
 The literature review (SMS) aims to answer the following research questions (Examples):
-* <span style="color:red">**RQ1**</span> : Bagaimana evolusi penelitian **Visual Neural Encoding** ditinjau dari dukungan serta populasi publikasi dari lima tahun terakhir yaitu 2017-2022?  
+* <span style="color:red">**RQ1**</span> : Bagaimana evolusi penelitian **Visual Neural Encoding** ditinjau dari dukungan serta populasi publikasi dari lima tahun terakhir yaitu 2019-2027?  
 * <span style="color:blue">**RQ2**</span> : Apa saja yang termasuk pada area topik penelitian **Visual Neural Encoding**? 
 * **RQ3** : Bagaimana trend topik dan apa topik saat ini yang merupakan promising research topic pada **Visual Neural Encoding** ? 
 
@@ -76,7 +76,7 @@ Name: count, dtype: int64
 
 Total entries: 118
 
-Total publikasi (harus 118 untuk 2017-2022): 118
+Total publikasi (harus 118 untuk 2019-2027): 118
 
 | year | 2019 | 2020 | 2021 |	2022 | 2023 | 2024 | 2025 |	2026 | 2027 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
