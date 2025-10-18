@@ -149,3 +149,4 @@ Word Cloud:
 <img width="989" height="3990" alt="image" src="https://github.com/user-attachments/assets/06b6f98d-1b22-4373-82dd-64a97bd1a795" />
 
 
+[**Lihat Intertopic Distance Map**](./lda/)
