@@ -10,10 +10,6 @@ Systematic Mapping Study (SMS) yang bersifat lebih luas mencakup berbagai modali
 
 ## PRISMA
 
-<img width="2382" height="1370" alt="genmethodsms" src="https://github.com/user-attachments/assets/e326f427-498b-41b2-9048-2d72df355ed8" />
-
-<img width="1476" height="1011" alt="image" src="https://github.com/user-attachments/assets/77eb21bb-eef5-4ac5-ae61-9367494d36e3" />
-
 ![mapping](https://github.com/user-attachments/assets/316aa5ae-f84e-465a-b82c-8e44710f3b30)
 
 The literature review (SMS) aims to answer the following research questions (Examples):
@@ -47,7 +43,7 @@ Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 
 ### Study Selection
 
-Pengolahan meta data artikel berupa bibtex, dengan langkah:
+[Pengolahan meta data artikel berupa bibtex](https://colab.research.google.com/drive/1dK1OTfULLtE1d9Gd-a5iWjef9h8PjUD2?usp=sharing), dengan langkah:
 
 1. Diagnostik bibtex entry sintaks error dan tidak lengkap
 2. Standarisasi format bibtex
@@ -79,13 +75,14 @@ Name: count, dtype: int64
 Total entries: 118
 
 Total publikasi (harus 118 untuk 2017-2022): 118
+
 | year | 2019 | 2020 | 2021 |	2022 | 2023 | 2024 | 2025 |	2026 | 2027 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Article | 2 | 8 | 9 | 7 | 9 | 18 | 28 | 0 | 0 |
 | Conference Paper | 3 | 4 | 3 | 8 | 6 | 10 | 3 | 0 | 0 |
-| Book | 0	|0	|0	|0	|0	|0	|0	|0	|0|
-| Book Chapter | 0|	0|	0|	0|	0|	0|	0|	0|	0|
-| Jumlah | 5	|12	|12	|15	|15	|28	|31	|0	|0|
+| Book | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Book Chapter | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Jumlah | 5 | 12 | 12 | 15 | 15 | 28 | 31 | 0 | 0 |
 
 <img width="1190" height="690" alt="image" src="https://github.com/user-attachments/assets/639b1353-5f9c-46f7-8653-b8cbd02e60f7" />
 
