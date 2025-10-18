@@ -94,7 +94,7 @@ Total publikasi (harus 118 untuk 2017-2022): 118
 
 ## Bibliometric Analysis
 
-Untuk menjawab RQ2
+Untuk menjawab RQ2, mengggunakan VOSviewer dari [data RIS](./bibtex/my_references.ris)
 
 Topik-topik yang terkait:
 
