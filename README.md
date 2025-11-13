@@ -21,47 +21,46 @@ The literature review (SMS) aims to answer the following research questions (Exa
 
 Pencarian per tanggal 13 November 2025.
 
-Kata Kunci:
+Kata Kunci:  
+[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=7671a4bc715f080e37cad1c687738363&sot=a&sdt=a&sl=73&s=TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29&origin=searchadvanced&editSaveSearch=&txGid=672375c17252b496571b97b7adeef4c5&sessionSearchId=7671a4bc715f080e37cad1c687738363&limit=10) : 1.523 (1967-2026)
 ```txt
 TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) 
 ```
-[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=7671a4bc715f080e37cad1c687738363&sot=a&sdt=a&sl=73&s=TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29&origin=searchadvanced&editSaveSearch=&txGid=672375c17252b496571b97b7adeef4c5&sessionSearchId=7671a4bc715f080e37cad1c687738363&limit=10) : 1.523 (1967-2026)
 
+[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=1a061a10921eac9e304ad819cd2e05c4&sot=a&sdt=a&sl=125&s=%28+%28+TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=9f3e2caa5361de32ae8a4ae65ede4607&sessionSearchId=1a061a10921eac9e304ad819cd2e05c4&limit=10) : 901
 ```txt
 ( ( TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2027
 ```
-[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=1a061a10921eac9e304ad819cd2e05c4&sot=a&sdt=a&sl=125&s=%28+%28+TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=9f3e2caa5361de32ae8a4ae65ede4607&sessionSearchId=1a061a10921eac9e304ad819cd2e05c4&limit=10) : 901
 
+[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=5115b0a83dfb3041d14cb426a7aab5c3&sot=a&sdt=a&sl=220&s=%28+%28+TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29+%29+AND+%28+TITLE-ABS-KEY+%28+%22electroencephalogram%22+%29+OR+TITLE-ABS-KEY+%28+%22electroencephalography%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=4a9db090daf7e26e6543aa36642b58c8&sessionSearchId=5115b0a83dfb3041d14cb426a7aab5c3&limit=10) : 251
 ```txt
 ( ( TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) ) AND ( TITLE-ABS-KEY ( "electroencephalogram" ) OR TITLE-ABS-KEY ( "electroencephalography" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2027
 ```
-[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=5115b0a83dfb3041d14cb426a7aab5c3&sot=a&sdt=a&sl=220&s=%28+%28+TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29+%29+AND+%28+TITLE-ABS-KEY+%28+%22electroencephalogram%22+%29+OR+TITLE-ABS-KEY+%28+%22electroencephalography%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=4a9db090daf7e26e6543aa36642b58c8&sessionSearchId=5115b0a83dfb3041d14cb426a7aab5c3&limit=10) : 251
 
+[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=11c46af5d0fd00374b06f5df26b23e7d&sot=a&sdt=a&sl=175&s=%28+%28+ALL%28+%22neural+decoding%22+%29+OR+ALL%28+%22brain+decoding%22+%29+%29+AND+%28+ALL%28+%22electroencephalogram%22+%29+OR+ALL%28%22electroencephalography%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=55189d88c90fbe86eaa072a224264982&sessionSearchId=11c46af5d0fd00374b06f5df26b23e7d&limit=10) : 1818
 ```txt
 ( ( ALL ( "neural decoding" ) OR ALL ( "brain decoding" ) ) AND ( ALL ( "electroencephalogram" ) OR ALL ( "electroencephalography" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2027
 ```
-[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=11c46af5d0fd00374b06f5df26b23e7d&sot=a&sdt=a&sl=175&s=%28+%28+ALL%28+%22neural+decoding%22+%29+OR+ALL%28+%22brain+decoding%22+%29+%29+AND+%28+ALL%28+%22electroencephalogram%22+%29+OR+ALL%28%22electroencephalography%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=55189d88c90fbe86eaa072a224264982&sessionSearchId=11c46af5d0fd00374b06f5df26b23e7d&limit=10) : 1818
 
+[IEEE](https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22All%20Metadata%22:%22neural%20decoding%22%20OR%20%22All%20Metadata%22:%22brain%20decoding%22)%20AND%20(%22All%20Metadata%22:%22eeg%22%20OR%20%22All%20Metadata%22:%22electroencephalogram%22%20OR%20%22All%20Metadata%22:%22electroencephalography%22)&ranges=2019_2026_Year) : 115
 ```txt
 "neural decoding" OR "brain decoding"                          in    All Metadata
 "eeg" OR "electroencephalogram" OR "electroencephalography"    in    All Metadata
 Publication Year:
 2019 To: 2027
 ```
-[IEEE](https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22All%20Metadata%22:%22neural%20decoding%22%20OR%20%22All%20Metadata%22:%22brain%20decoding%22)%20AND%20(%22All%20Metadata%22:%22eeg%22%20OR%20%22All%20Metadata%22:%22electroencephalogram%22%20OR%20%22All%20Metadata%22:%22electroencephalography%22)&ranges=2019_2026_Year) : 115
 
-
+[Scopus](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=c1478663913a83a0e6d600a8763596d2&sot=a&sdt=a&sl=189&s=%28+%28+ALL%28+%22neural+decoding%22+%29+OR+ALL%28+%22brain+decoding%22+%29+%29+AND+%28+ALL%28%22eeg%22%29+OR+ALL%28+%22electroencephalogram%22+%29+OR+ALL%28%22electroencephalography%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=ba40030b62bf6b95e734d3a0cac023d2&sessionSearchId=c1478663913a83a0e6d600a8763596d2&limit=10) : 2532
 ```txt
 ( ( ALL( "neural decoding" ) OR ALL( "brain decoding" ) ) AND ( ALL("eeg") OR ALL( "electroencephalogram" ) OR ALL("electroencephalography" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2027
 ```
-[Scopus](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=c1478663913a83a0e6d600a8763596d2&sot=a&sdt=a&sl=189&s=%28+%28+ALL%28+%22neural+decoding%22+%29+OR+ALL%28+%22brain+decoding%22+%29+%29+AND+%28+ALL%28%22eeg%22%29+OR+ALL%28+%22electroencephalogram%22+%29+OR+ALL%28%22electroencephalography%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=ba40030b62bf6b95e734d3a0cac023d2&sessionSearchId=c1478663913a83a0e6d600a8763596d2&limit=10) : 2532
 
+[IEEE](https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22Full%20Text%20%26%20Metadata%22:%22neural%20decoding%22%20OR%20%22Full%20Text%20%26%20Metadata%22:%22brain%20decoding%22)%20AND%20(%22Full%20Text%20%26%20Metadata%22:%22eeg%22%20OR%20%22Full%20Text%20%26%20Metadata%22:%22electroencephalogram%22%20OR%20%22Full%20Text%20%26%20Metadata%22:%22electroencephalography%22)&ranges=2019_2026_Year) : 389
 ```txt
 ("Full Text & Metadata":"neural decoding" OR "Full Text & Metadata":"brain decoding") AND ("Full Text & Metadata":"eeg" OR "Full Text & Metadata":"electroencephalogram" OR "Full Text & Metadata":"electroencephalography")
 
 Filters Applied: 2019 - 2026
 ```
-[IEEE](https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22Full%20Text%20%26%20Metadata%22:%22neural%20decoding%22%20OR%20%22Full%20Text%20%26%20Metadata%22:%22brain%20decoding%22)%20AND%20(%22Full%20Text%20%26%20Metadata%22:%22eeg%22%20OR%20%22Full%20Text%20%26%20Metadata%22:%22electroencephalogram%22%20OR%20%22Full%20Text%20%26%20Metadata%22:%22electroencephalography%22)&ranges=2019_2026_Year) : 389
 
 #### Pencarian dengan filter
 Pencarian artikel SMS dengan kriteria tabel di bawah ini:
