@@ -62,6 +62,11 @@ Publication Year:
 Filters Applied: 2019 - 2026
 ```
 
+[Scopus](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=55e0dd8c2292b688fc6ef37491793dc0&sot=a&sdt=a&sl=239&s=%28+%28+TITLE-ABS-KEY%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY%28+%22brain+decoding%22+%29+%29+AND+%28+TITLE-ABS-KEY%28%22eeg%22%29+OR+TITLE-ABS-KEY%28+%22electroencephalogram%22+%29+OR+TITLE-ABS-KEY%28%22electroencephalography%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=466092b82d5ae3c3934df2731274f360&sessionSearchId=55e0dd8c2292b688fc6ef37491793dc0&limit=10) : 281
+```txt
+( ( TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) ) AND ( TITLE-ABS-KEY ( "eeg" ) OR TITLE-ABS-KEY ( "electroencephalogram" ) OR TITLE-ABS-KEY ( "electroencephalography" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2027
+```
+
 #### Pencarian dengan filter
 Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 
