@@ -72,6 +72,14 @@ Filters Applied: 2019 - 2026
 ("neural decoding" OR "brain decoding") AND ("eeg" OR "electroencephalogram" OR "electroencephalography")
 ```
 
+[ScienceDirect](https://www.sciencedirect.com/search?date=2019-2027&tak=%28%22neural+decoding%22+OR+%22brain+decoding%22%29+AND+%28%22eeg%22+OR+%22electroencephalogram%22+OR+%22electroencephalography%22%29) : 54
+```txt
+Title, abstract or author-specified keywords:
+("neural decoding" OR "brain decoding") AND ("eeg" OR "electroencephalogram" OR "electroencephalography")
+Year(s):
+2019-2027
+```
+
 #### Pencarian dengan filter
 Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 
