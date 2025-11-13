@@ -67,6 +67,11 @@ Filters Applied: 2019 - 2026
 ( ( TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) ) AND ( TITLE-ABS-KEY ( "eeg" ) OR TITLE-ABS-KEY ( "electroencephalogram" ) OR TITLE-ABS-KEY ( "electroencephalography" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2027
 ```
 
+[ScienceDirect](https://www.sciencedirect.com/search?qs=%28%22neural+decoding%22+OR+%22brain+decoding%22%29+AND+%28%22eeg%22+OR+%22electroencephalogram%22+OR+%22electroencephalography%22%29) : 564
+```txt
+("neural decoding" OR "brain decoding") AND ("eeg" OR "electroencephalogram" OR "electroencephalography")
+```
+
 #### Pencarian dengan filter
 Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 
