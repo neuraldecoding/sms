@@ -25,13 +25,12 @@ Kata Kunci:
 ```txt
 TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) 
 ```
-[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=7671a4bc715f080e37cad1c687738363&sot=a&sdt=a&sl=73&s=TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29&origin=searchadvanced&editSaveSearch=&txGid=672375c17252b496571b97b7adeef4c5&sessionSearchId=7671a4bc715f080e37cad1c687738363&limit=10) : 1.523  
-Dari Tahun 1967-2026
+[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=7671a4bc715f080e37cad1c687738363&sot=a&sdt=a&sl=73&s=TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29&origin=searchadvanced&editSaveSearch=&txGid=672375c17252b496571b97b7adeef4c5&sessionSearchId=7671a4bc715f080e37cad1c687738363&limit=10) : 1.523 (1967-2026)
 
 ```txt
 ( ( TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2027
 ```
-Scopus.com : 901
+[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=1a061a10921eac9e304ad819cd2e05c4&sot=a&sdt=a&sl=125&s=%28+%28+TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=9f3e2caa5361de32ae8a4ae65ede4607&sessionSearchId=1a061a10921eac9e304ad819cd2e05c4&limit=10) : 901
 
 
 
