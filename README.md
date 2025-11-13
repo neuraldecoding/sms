@@ -32,7 +32,10 @@ TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" )
 ```
 [Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=1a061a10921eac9e304ad819cd2e05c4&sot=a&sdt=a&sl=125&s=%28+%28+TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=9f3e2caa5361de32ae8a4ae65ede4607&sessionSearchId=1a061a10921eac9e304ad819cd2e05c4&limit=10) : 901
 
-
+```txt
+( ( TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) ) AND ( TITLE-ABS-KEY ( "electroencephalogram" ) OR TITLE-ABS-KEY ( "electroencephalography" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2027
+```
+[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=5115b0a83dfb3041d14cb426a7aab5c3&sot=a&sdt=a&sl=220&s=%28+%28+TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29+%29+AND+%28+TITLE-ABS-KEY+%28+%22electroencephalogram%22+%29+OR+TITLE-ABS-KEY+%28+%22electroencephalography%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=4a9db090daf7e26e6543aa36642b58c8&sessionSearchId=5115b0a83dfb3041d14cb426a7aab5c3&limit=10) : 251
 
 #### Pencarian dengan filter
 Pencarian artikel SMS dengan kriteria tabel di bawah ini:
