@@ -42,6 +42,27 @@ TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" )
 ```
 [Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=11c46af5d0fd00374b06f5df26b23e7d&sot=a&sdt=a&sl=175&s=%28+%28+ALL%28+%22neural+decoding%22+%29+OR+ALL%28+%22brain+decoding%22+%29+%29+AND+%28+ALL%28+%22electroencephalogram%22+%29+OR+ALL%28%22electroencephalography%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=55189d88c90fbe86eaa072a224264982&sessionSearchId=11c46af5d0fd00374b06f5df26b23e7d&limit=10) : 1818
 
+```txt
+"neural decoding" OR "brain decoding"                          in    All Metadata
+"eeg" OR "electroencephalogram" OR "electroencephalography"    in    All Metadata
+Publication Year:
+2019 To: 2027
+```
+[IEEE](https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22All%20Metadata%22:%22neural%20decoding%22%20OR%20%22All%20Metadata%22:%22brain%20decoding%22)%20AND%20(%22All%20Metadata%22:%22eeg%22%20OR%20%22All%20Metadata%22:%22electroencephalogram%22%20OR%20%22All%20Metadata%22:%22electroencephalography%22)&ranges=2019_2026_Year) : 115
+
+
+```txt
+( ( ALL( "neural decoding" ) OR ALL( "brain decoding" ) ) AND ( ALL("eeg") OR ALL( "electroencephalogram" ) OR ALL("electroencephalography" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2027
+```
+[Scopus](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=c1478663913a83a0e6d600a8763596d2&sot=a&sdt=a&sl=189&s=%28+%28+ALL%28+%22neural+decoding%22+%29+OR+ALL%28+%22brain+decoding%22+%29+%29+AND+%28+ALL%28%22eeg%22%29+OR+ALL%28+%22electroencephalogram%22+%29+OR+ALL%28%22electroencephalography%22+%29+%29+%29+AND+PUBYEAR+%26gt%3B+2019+AND+PUBYEAR+%26lt%3B+2027&origin=searchadvanced&editSaveSearch=&txGid=ba40030b62bf6b95e734d3a0cac023d2&sessionSearchId=c1478663913a83a0e6d600a8763596d2&limit=10) : 2532
+
+```txt
+("Full Text & Metadata":"neural decoding" OR "Full Text & Metadata":"brain decoding") AND ("Full Text & Metadata":"eeg" OR "Full Text & Metadata":"electroencephalogram" OR "Full Text & Metadata":"electroencephalography")
+
+Filters Applied: 2019 - 2026
+```
+[IEEE](https://ieeexplore.ieee.org/search/searchresult.jsp?action=search&newsearch=true&matchBoolean=true&queryText=(%22Full%20Text%20%26%20Metadata%22:%22neural%20decoding%22%20OR%20%22Full%20Text%20%26%20Metadata%22:%22brain%20decoding%22)%20AND%20(%22Full%20Text%20%26%20Metadata%22:%22eeg%22%20OR%20%22Full%20Text%20%26%20Metadata%22:%22electroencephalogram%22%20OR%20%22Full%20Text%20%26%20Metadata%22:%22electroencephalography%22)&ranges=2019_2026_Year) : 389
+
 #### Pencarian dengan filter
 Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 
