@@ -19,6 +19,23 @@ The literature review (SMS) aims to answer the following research questions (Exa
 
 ### Search Query
 
+Pencarian per tanggal 13 November 2025.
+
+Kata Kunci:
+```txt
+TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) 
+```
+[Scopus.com](https://www.scopus.com/results/results.uri?sort=plf-f&src=s&sid=7671a4bc715f080e37cad1c687738363&sot=a&sdt=a&sl=73&s=TITLE-ABS-KEY+%28+%22neural+decoding%22+%29+OR+TITLE-ABS-KEY+%28+%22brain+decoding%22+%29&origin=searchadvanced&editSaveSearch=&txGid=672375c17252b496571b97b7adeef4c5&sessionSearchId=7671a4bc715f080e37cad1c687738363&limit=10) : 1.523  
+Dari Tahun 1967-2026
+
+```txt
+( ( TITLE-ABS-KEY ( "neural decoding" ) OR TITLE-ABS-KEY ( "brain decoding" ) ) ) AND PUBYEAR > 2019 AND PUBYEAR < 2027
+```
+Scopus.com : 901
+
+
+
+#### Pencarian dengan filter
 Pencarian artikel SMS dengan kriteria tabel di bawah ini:
 
 | Komponen | Deskripsi |
