@@ -1,5 +1,5 @@
 // Tunggu sampai DOM selesai dimuat
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
     // Dapatkan referensi ke elemen-elemen DOM
     const bibBody = document.querySelector('#bibBody');
     const errorDiv = document.querySelector('#error');
@@ -19,7 +19,7 @@ window.addEventListener('load', function() {
     }
 
     // Membaca file BibTeX
-    fetch('references_final.bib')
+    fetch('all.bib')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
@@ -31,18 +31,64 @@ window.addEventListener('load', function() {
                 throw new Error('BibTeX file is empty');
             }
 
-            // Parser BibTeX sederhana
-            const entries = text.split(/@/).slice(1).map(entry => {
+            // Parser BibTeX yang lebih robust
+            const entries = text.split(/^@/m).slice(1).map(entry => {
                 const typeMatch = entry.match(/^\w+/);
                 const type = typeMatch ? typeMatch[0] : '';
                 const keyMatch = entry.match(/\{([^,]+),/);
                 const key = keyMatch ? keyMatch[1] : '';
                 const fields = {};
-                const fieldRegex = /(\w+)\s*=\s*\{([^}]*)\}/g;
-                let fieldMatch;
-                while ((fieldMatch = fieldRegex.exec(entry)) !== null) {
-                    fields[fieldMatch[1].toLowerCase()] = fieldMatch[2];
+
+                // Parser yang lebih robust untuk menangani nested braces dan multi-line
+                let i = entry.indexOf('{');
+                if (i === -1) return { type, key, fields };
+
+                i++; // Skip opening brace
+                while (i < entry.length) {
+                    // Skip whitespace dan koma
+                    while (i < entry.length && /[\s,]/.test(entry[i])) i++;
+                    if (i >= entry.length) break;
+
+                    // Cek apakah ini closing brace dari entry
+                    if (entry[i] === '}') break;
+
+                    // Baca field name
+                    let fieldName = '';
+                    while (i < entry.length && /[\w-]/.test(entry[i])) {
+                        fieldName += entry[i++];
+                    }
+                    if (!fieldName) break;
+
+                    // Skip whitespace dan '='
+                    while (i < entry.length && /[\s=]/.test(entry[i])) i++;
+                    if (i >= entry.length) break;
+
+                    // Baca field value
+                    let fieldValue = '';
+                    if (entry[i] === '{') {
+                        // Count braces untuk nested content
+                        let braceCount = 1;
+                        i++; // Skip opening brace
+                        while (i < entry.length && braceCount > 0) {
+                            if (entry[i] === '{') braceCount++;
+                            else if (entry[i] === '}') braceCount--;
+                            if (braceCount > 0) fieldValue += entry[i];
+                            i++;
+                        }
+                    } else if (entry[i] === '"') {
+                        // Handle quoted strings
+                        i++; // Skip opening quote
+                        while (i < entry.length && entry[i] !== '"') {
+                            fieldValue += entry[i++];
+                        }
+                        if (i < entry.length) i++; // Skip closing quote
+                    }
+
+                    if (fieldName && fieldValue) {
+                        fields[fieldName.toLowerCase()] = fieldValue.trim();
+                    }
                 }
+
                 return { type, key, fields };
             }).filter(entry => entry.key); // Filter entries tanpa key
 
@@ -62,7 +108,7 @@ window.addEventListener('load', function() {
 
             entries.forEach((entry, index) => {
                 const row = bibBody.insertRow();
-                
+
                 // Fungsi untuk membuat link DOI
                 const createDoiLink = (doi, text) => {
                     if (!doi) return text;
@@ -79,8 +125,8 @@ window.addEventListener('load', function() {
 
                 const cellsData = [
                     { label: 'No', value: index + 1 },
-                    { 
-                        label: 'Cite Key', 
+                    {
+                        label: 'Cite Key',
                         value: entry.key,
                         isLink: true,
                         doi: entry.fields.doi
@@ -88,7 +134,7 @@ window.addEventListener('load', function() {
                     { label: 'Judul', value: entry.fields.title || '' },
                     { label: 'Abstrak', value: entry.fields.abstract || '' }
                 ];
-                
+
                 cellsData.forEach(({ label, value, isLink, doi }) => {
                     const cell = row.insertCell();
                     cell.setAttribute('data-label', label);
@@ -108,7 +154,7 @@ window.addEventListener('load', function() {
         .catch(err => {
             console.error('Error:', err);
             showError(err.message);
-            
+
             // Tampilkan pesan error dalam tabel
             while (bibBody.firstChild) {
                 bibBody.removeChild(bibBody.firstChild);
